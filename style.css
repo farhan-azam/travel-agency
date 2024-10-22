@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+    background-color: black;
+}
+
+header .image{
+   background-image: url("assets/travel.jpeg");
+   background-position: center center;
+   background-repeat: no-repeat;
+   height: 100vh;
+   position:relative;
+   background-size: max(1000px,100vw);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+
+}
+header .image .text{
+    background: none;
+}
+header .icons{
+    position: absolute;
+    left: 0px;
+    top:0px
+}
+h1{
+    background: transparent;
+}
+
+.nextimage{
+    position: absolute;
+    top:90vh;
+    z-index: 28;
+    left: 50px;
+
+}
+
+
